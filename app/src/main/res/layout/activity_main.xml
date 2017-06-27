@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.googlebookslist.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:id="@+id/find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="150dp"
+        android:text="@string/find_books"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/search_terms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="#ffffff"
+        android:hint="@string/search_bar"
+        android:maxLines="1"
+        android:padding="6dp"
+        android:textAlignment="center"
+        android:textColorHint="#9999"
+        android:textSize="16sp">
+    </EditText>
+
+    <Button
+        android:id="@+id/find_button"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/search_terms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="#FFFFFF"
+        android:text="@string/search_button" />
+</RelativeLayout>

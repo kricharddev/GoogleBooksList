@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GoogleBooksList</string>
+    <string name="find_books">Find your book</string>
+    <string name="search_bar">Begin your search</string>
+    <string name="no_results">Sorry.. \n   Your search did not return any results.
+    \n
+        \nPlease modify criteria and try again.</string>
+    <string name="retry">RETRY</string>
+    <string name="search_button">Go</string>
+    <string name="search_terms_needed">Please enter search terms first</string>
+    <string name="VOLUME_URL" translatable="false">https://www.googleapis.com/books/v1/volumes?q=</string>
+    <string name="INDEX_URL" translatable="false">&amp;startIndex=</string>
+    <string name="MAX_RESULTS_URL" translatable="false">&amp;maxResults=</string>
+    <string name="searching">Finding your next book..</string>
+</resources>
